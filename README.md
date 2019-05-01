@@ -1,13 +1,5 @@
 # Ansible deployment to install JIRA 
 
-## 1. QuickStart
-
-```
-# Deploy JIRA to a remote server
-ansible-playbook jira.yml -i hosts
-
-```
-
 ## Table of contents
 
 - [1. QuickStart](#1-quickstart)
@@ -18,6 +10,13 @@ ansible-playbook jira.yml -i hosts
   - [4.2 Playbook Arguments for JIRA host](#42-playbook-arguments-for-jira-host)
 - [5. After Install](#5-after-install)
 
+## 1. QuickStart
+
+```
+# Deploy JIRA to a remote server
+ansible-playbook jira.yml -i hosts
+
+```
 
 ## 2. Overview
 
