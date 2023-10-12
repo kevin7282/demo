@@ -10,7 +10,7 @@ public class db {
 		Class.forName("oracle.jdbc.driver.OracleDriver");  
 		  
 		//step2 create  the connection object  
-		Connection con=DriverManager.getConnection("jdbc:oracle:thin:@susracdev.service.cihs.gov.on.ca:1525/SUSDEV","oms","oms");
+		Connection con=DriverManager.getConnection("jdbc:oracle:thin:@demo.ca:1525","kevin","demopass");
 		
 		viewTable(con, "OMS");
 		  
