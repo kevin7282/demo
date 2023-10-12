@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
  
-public class OMSDriver {
+public class WebsiteDriver {
     static WebDriver driver;
     
     public static void main(String[] args) {
@@ -26,8 +26,8 @@ public class OMSDriver {
     	driver.manage().window().maximize();
     	
     	// Select Testing Environment
-		test1URL = "http://on34c02217480.cihs.ad.gov.on.ca:9091/oms/loginPage.jsp";
-		devURL = "https://intradev.sus.ebc.gov.on.ca/oms/main";
+		test1URL = "http://openeye.com";
+		devURL = "https://sample.com/main";
 		appURL = devURL;
 
 		if (appURL.equals(devURL)){
