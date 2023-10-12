@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class OMSDEV {
+public class WebsiteDEV {
     static Wait<WebDriver> wait;
 
 	public static void createOrg(WebDriver driver) {
