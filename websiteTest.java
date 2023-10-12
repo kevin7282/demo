@@ -27,7 +27,7 @@ public class omsTest {
     	driver = new ChromeDriver();
     	
     	*/
-    	String appURL = "http://on34c02217480.cihs.ad.gov.on.ca:9091/oms/loginPage.jsp";
+    	String appURL = "websiteurl-demo.com";
     	
     	//System.setProperty("webdriver.ie.driver","C:/Tools/Selenium/IEDriverServer.exe"); 
     	System.setProperty("webdriver.ie.driver","C:/Tools/Selenium/IEDriverServer.exe"); 
