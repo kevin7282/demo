@@ -1,46 +1,41 @@
 # AWS Certified SysOps Administrator - Associate - SOA - C02
 - [AWS Builder](https://skillbuilder.aws/search?searchText=AWS+Certified+SysOps+Administrator+-+Associate+%28SOA-C02%29&page=1&isValidSearchText=true)
-- [Schedule an exam]（https://aws.amazon.com/certification/certified-sysops-admin-associate/）
-- [Schedule an exam](https://wsr.pearsonvue.com/testtaker/registration/Dashboard/AWS)
+- [Schedule an exam](https://aws.amazon.com/certification/certified-sysops-admin-associate)
+- [Pearson VUE](https://www.pearsonvue.com/)
 - [AWS Certified SysOps Administrator Associate Exam SOA-C02](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
+- [Comparison of AWS Services](https://tutorialsdojo.com/comparison-of-aws-services/)
 - [AWS Certified SysOps Administrator - Associate - exam guide](https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf)
 
 - [AWS Certified SysOps Administrator Associate SOA-C02 Practice Exams 2025 - Tutorials Dojo](https://portal.tutorialsdojo.com/courses/aws-certified-sysops-administrator-associate-practice-exams/)
 
-- [AWS Certified SysOps Administrator Associate Exam Guide Study Path SOA-C02 - Tutorials Dojo ] (https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
+- [AWS Certified SysOps Administrator Associate Exam Guide Study Path SOA-C02 - Tutorials Dojo](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
 
 - [(41) Prepare for the AWS SysOps Administrator Associate (SOA-C02) – Full Course to PASS the Exam - YouTube](https://www.youtube.com/watch?v=QN574SUEP2I)
+
+- [Prepare for the AWS SysOps Administrator Associate (SOA-C02) -  Full Course to PASS the Exam ](https://www.youtube.com/watch?v=QN574SUEP2I)
+- [AWS-Examples with Andrew Brown - GitHub](https://github.com/ExamProCo/AWS-Examples)
 
 <hr />
 
 # Table of Contents
    * [Content outline](#Content-outline)
-   * [Domain 1: Monitoring, Logging, and Remediation](#Domain-1-Monitoring,-Logging,-Remediation)
-   * [Domain 2: Reliability and Business Continuity](#Domain-2-Reliability-and-Business-Continuity)
-
+   * [Domain 1: Monitoring, Logging, and Remediation (20%)](#domain-1-monitoring-logging-and-retention-20)
+   * [Domain 2: Reliability and Business Continuity (16%)](#domain-2-reliability-and-business-continuity-16)
+   * [Domain 3: Deployment, Provisioning, and Automation (18%)](#domain-3-deployment-provisioning-and-automation-18)
+   * [Domain 4: Security and Compliance (16%)](#domain-4-security-and-compliance-16)
+   * [Domain 5: Networking and Content Delivery (18%)](#domain-5-networking-and-content-delivery-18)
+   * [Domain 6: Cost and Performance Optimization (12%)](#domain-6-cost-and-performance-optimization-12)   
    * [Appendix - AWS services and features](#Appendix)
       * [In-scope](#In-scope)
       * [Out-of-scope](#Out-of-scope)
 
 <hr />
 
-## Content outline
-The exam has the following content domains and weightings: 
-- Domain 1: Monitoring, Logging, and Remediation (20% of scored content) 
-- Domain 2: Reliability and Business Continuity (16% of scored content) 
-- Domain 3: Deployment, Provisioning, and Automation (18% of scored content) 
-- Domain 4: Security and Compliance (16% of scored content) 
-- Domain 5: Networking and Content Delivery (18% of scored content) 
-- Domain 6: Cost and Performance Optimization (12% of scored content) 
-
 [🔼 Back to top](#table-of-contents)
 
-[Prepare for the AWS SysOps Administrator Associate (SOA-C02) -  Full Course to PASS the Exam ](https://www.youtube.com/watch?v=QN574SUEP2I)
-[AWS-Examples with Andrew Brown - GitHub](https://github.com/ExamProCo/AWS-Examples)
+
 
 ## Domain 1: Monitoring, Logging, and Retention (20%)
-[🔼 Back to top](#table-of-contents)
-
 Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service
 - [Collect metrics, logs, and traces with the CloudWatch agent - Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Agent.html)
 - [Collect process metrics with the procstat plugin - Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-procstat.html)
@@ -66,61 +61,44 @@ Transitioning objects using Amazon S3 Lifecycle - Amazon Simple Storage Service
 
 ### AWS Storage Gateway
 
-[AWS Storage Gateway FAQs | Amazon Web Services](https://aws.amazon.com/storagegateway/faqs/)
-**[EBS](https://aws.amazon.com/storagegateway/faqs/)**
-[New - Opt-in to Default Encryption for New EBS Volumes | AWS News Blog](https://aws.amazon.com/blogs/aws/new-opt-in-to-default-encryption-for-new-ebs-volumes/)
-[Amazon EBS and RAID configuration - Amazon EBS](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)
-[Amazon FSx](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)
+- [AWS Storage Gateway FAQs | Amazon Web Services](https://aws.amazon.com/storagegateway/faqs/)
+- [New - Opt-in to Default Encryption for New EBS Volumes | AWS News Blog](https://aws.amazon.com/blogs/aws/new-opt-in-to-default-encryption-for-new-ebs-volumes/)
+- [Amazon EBS and RAID configuration - Amazon EBS](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)
+- [Amazon FSx](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)
 
 **[Amazon FSx](https://docs.aws.amazon.com/ebs/latest/userguide/raid-config.html)**
-[What is FSx for Windows File Server? - Amazon FSx for Windows File Server](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html)
+
+- [What is FSx for Windows File Server? - Amazon FSx for Windows File Server](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html)
 
 [**EFS**](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html)
-[Amazon EFS performance - Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/performance.html)
-[How Amazon EFS works - Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html)
+
+- [Amazon EFS performance - Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/performance.html)
+- [How Amazon EFS works - Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html)
 
 ### CloudFront:
-[Manage how long content stays in the cache (expiration) - Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html)
+- [Manage how long content stays in the cache (expiration) - Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Expiration.html)
 
-- **Deployment, Provisioning, and Automation – 18%**  
-  [Link to Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
-### Task Statement 1.1: Implement metrics, alarms, and filters by using AWS monitoring and logging services.                                                   
-[🔼 Back to top](#table-of-contents)
-- Identify, collect, analyze, and export logs (for example, Amazon CloudWatch 
-Logs, CloudWatch Logs Insights, AWS CloudTrail logs). 
-[cloudwatch](https://github.com/ExamProCo/AWS-Examples/tree/main/cloudwatch/logs/basic)
-  ```sh
-    aws logs create-log-group --log-group-name "/example/basic/app2"
-  ```
-- Collect metrics and logs by using the CloudWatch agent. 
-- Create CloudWatch alarms. 
-- Create metric filters. 
-- Create CloudWatch dashboards. 
-- Configure notifications (for example, Amazon Simple Notification Service 
-[Amazon SNS], Service Quotas, CloudWatch alarms, AWS Health events). 
+### tutorialsdojo links - Monitoring - 20%
+- [CloudWatch Cheat Sheet](https://tutorialsdojo.com/amazon-cloudwatch/)
+- [AWS Artifact Cheat Sheet](https://tutorialsdojo.com/aws-artifact/)
+- [Auto Scaling Cheat Sheet](https://tutorialsdojo.com/aws-auto-scaling/)
+- [AWS Identity and Access Management](https://tutorialsdojo.com/aws-identity-and-access-management-iam/)
+- [Cognito Cheat Sheet](https://tutorialsdojo.com/amazon-cognito/)
+- [Cognito User Pools vs Identity Pools](https://tutorialsdojo.com/amazon-cognito-user-pools-vs-identity-pools/)
 
-[🔼 Back to top](#table-of-contents)
-### Task Statement 1.2: Remediate issues based on monitoring and availability metrics. 
-- Troubleshoot or take corrective actions based on notifications and alarms. 
-- Configure Amazon EventBridge rules to invoke actions. 
-- Use AWS Systems Manager Automation runbooks to take action based on AWS 
-Config rules. 
 
 [🔼 Back to top](#table-of-contents)
 <hr />
 
 ## Domain 2: Reliability and Business Continuity (16%)
-- **Reliability and Business Continuity (SysOps) – 16%**  
-  [Link to Reference](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html#as-step-scaling-warmup)
+
+- [Instance warmup](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html#as-step-scaling-warmup)
 - [Use Elastic Load Balancing to distribute incoming application traffic in your Auto Scaling group - Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/autoscaling-load-balancer.html)
 
-- **AWS IAM Identity**  
-  [How to create and manage users within AWS IAM Identity Center | AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-create-and-manage-users-within-aws-sso/)
+**AWS IAM Identity**
+- [How to create and manage users within AWS IAM Identity Center | AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-create-and-manage-users-within-aws-sso/)
 - [What is AWS Organizations? - AWS Organizations](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html)
-- [Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
-[Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)  
 - [Use Elastic Load Balancing to distribute incoming application traffic in your Auto Scaling group - Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-load-balancer.html)
-
 - [Active Directory – AWS Directory Service – AWS](https://aws.amazon.com/directoryservice/)
 - [Security Compliance Management - AWS Artifact - AWS](https://aws.amazon.com/directoryservice/)
 - [What Is AWS CloudTrail? - AWS CloudTrail](https://aws.amazon.com/artifact/)
@@ -134,9 +112,6 @@ Config rules.
 - [Encrypting Amazon RDS resources - Amazon Relational Database Service](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html)
 - [Deleting a bucket - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html)
 - [Deleting a bucket - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/delete-bucket.html)
-
-### [IAM - AWS IAM Cheat Sheet](https://tutorialsdojo.com/aws-identity-and-access-management-iam/)
-
 - [Secure API access with MFA - Amazon Identity and Access Management](https://docs.amazonaws.cn/en_us/IAM/latest/UserGuide/id_credentials_mfa_configure-api-require.html)
 - [Grant a user permissions to pass a role to an AWS service - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_passrole.html)
 - [Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
@@ -167,19 +142,58 @@ retention policy).
 - Perform disaster recovery procedures. 
 
 * Ref: https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-authentication-authorization/#kubelet-authentication
+
+### tutorialsdojo links - Reliability 12%
+- [AWS Organizations Cheat Sheet](https://tutorialsdojo.com/aws-organizations/)
+- [Amazon S3 Cheat Sheet](https://tutorialsdojo.com/amazon-s3/)
+- [AWS WAF Cheat Sheet](https://tutorialsdojo.com/aws-waf/)
+- [AWS Lambda Cheat Sheet](https://tutorialsdojo.com/aws-lambda/)
+- [Amazon RDS Cheat Sheet](https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/)
+- [Amazon Aurora Cheat Sheet](https://tutorialsdojo.com/amazon-aurora/)
+- [AWS Certificate Manager Cheat Sheet](https://tutorialsdojo.com/aws-certificate-manager/)
+- [AWS Security Hub Cheat Sheet](https://tutorialsdojo.com/aws-security-hub/)
+- [AWS Secrets Manager Cheat Sheet](https://tutorialsdojo.com/aws-secrets-manager/)
+- [Amazon VPC Cheat Sheet](https://tutorialsdojo.com/amazon-vpc/)
+- [AWS CloudTrail Cheat Sheet](https://tutorialsdojo.com/aws-cloudtrail/)
+- [Amazon Inspector Cheat Sheet](https://tutorialsdojo.com/amazon-inspector/)
+- [Amazon Macie Cheat Sheet](https://tutorialsdojo.com/amazon-macie/)
+- [AWS Artifact Cheat Sheet](https://tutorialsdojo.com/aws-artifact/)
+
 [🔼 Back to top](#table-of-contents)
 <hr />
 
 ## Domain 3: Deployment, Provisioning, and Automation (18%)
-- [AWS CloudFormation FAQs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
+
+### Task Statement 1.1: Implement metrics, alarms, and filters by using AWS monitoring and logging services.    
+- [ExamProCo/AWS-Examples cloudwatch](https://github.com/ExamProCo/AWS-Examples/tree/main/cloudwatch/logs/basic)                                               
+- Identify, collect, analyze, and export logs (for example, Amazon CloudWatch 
+Logs, CloudWatch Logs Insights, AWS CloudTrail logs). 
+
+  ```sh
+    aws logs create-log-group --log-group-name "/example/basic/app2"
+  ```
+- Collect metrics and logs by using the CloudWatch agent. 
+- Create CloudWatch alarms. 
+- Create metric filters. 
+- Create CloudWatch dashboards. 
+- Configure notifications (for example, Amazon Simple Notification Service 
+[Amazon SNS], Service Quotas, CloudWatch alarms, AWS Health events). 
+
+[🔼 Back to top](#table-of-contents)
+### Task Statement 1.2: Remediate issues based on monitoring and availability metrics. 
+- Troubleshoot or take corrective actions based on notifications and alarms. 
+- Configure Amazon EventBridge rules to invoke actions. 
+- Use AWS Systems Manager Automation runbooks to take action based on AWS 
+Config rules. 
+
+[**AWS CloudFormation FAQs**](https://aws.amazon.com/cloudformation/faqs/) 
 - [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
 **[CloudFormation](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)**  
 
-[**AWS CloudFormation FAQs**](https://aws.amazon.com/cloudformation/faqs/)  
-[**AWS CloudFormation best practices - AWS CloudFormation**](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#nested)  
-[**Managing stacks across accounts and Regions with StackSets - AWS CloudFormation**](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)  
-[**CreationPolicy attribute - AWS CloudFormation**](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)  
-[**Embed stacks within other stacks using nested stacks - AWS CloudFormation**](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html)  
+- [AWS CloudFormation best practices - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#nested)  
+- [Managing stacks across accounts and Regions with StackSets - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/what-is-cfnstacksets.html)  
+- [CreationPolicy attribute - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)  
+- [Embed stacks within other stacks using nested stacks - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html)  
 - [S3 Glacier Vault Lock - Amazon S3 Glacier](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html)  
 - [Use a CreationPolicy to Wait for On-Instance Configurations | AWS DevOps & Developer Productivity Blog](https://docs.aws.amazon.com/amazonglacier/latest/dev/vault-lock.html)  
 - [What is Amazon Detective? - Amazon Detective](https://aws.amazon.com/blogs/devops/use-a-creationpolicy-to-wait-for-on-instance-configurations/)  
@@ -202,10 +216,9 @@ retention policy).
 - [Create an Auto Scaling group from existing instance using the AWS CLI - Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-warm-pools.html#create-a-warm-pool-console)
 - [What is Tag Editor? - Tagging AWS Resources and Tag Editor](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-from-instance.html)
 - [CreationPolicy attribute - AWS CloudFormation](https://docs.aws.amazon.com/tag-editor/latest/userguide/tagging.html#tag-strategies)
-- [Placement groups for your Amazon EC2 instances - Amazon Elastic Compute Cloud](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)
-[AWS Systems Manager Automation - AWS Systems Manager](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
-
-[AWS Systems Manager Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
+- [CreationPolicy attribute](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html)
+- [Placement groups for your Amazon EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html)
+- [AWS Systems Manager Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
 
 **[RDS](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)**
 
@@ -214,7 +227,7 @@ retention policy).
 - [Using SSL/TLS to encrypt a connection to a DB instance or cluster - Amazon Relational Database Service](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SSL.html)
 - [Scaling Your Amazon RDS Instance Vertically and Horizontally | AWS Database Blog](https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/)
 
-[🔼 Back to top](#table-of-contents)
+
 ### Task Statement 3.1: Provision and maintain cloud resources. 
 - Create and manage AMIs (for example, EC2 Image Builder). 
 - Create, manage, and troubleshoot AWS CloudFormation. 
@@ -233,6 +246,25 @@ automate deployment processes.
 AWS Config). 
 <hr />
 
+### tutorialsdojo links - Deployment 18%
+- [AWS CloudFormation Cheat Sheet](https://tutorialsdojo.com/aws-cloudformation/)
+- [Amazon VPC Cheat Sheet](https://tutorialsdojo.com/amazon-vpc/)
+- [Amazon SQS Cheat Sheet](https://tutorialsdojo.com/aws-config/)
+- [AWS Lambda Cheat Sheet](https://tutorialsdojo.com/amazon-sqs/)
+- [AWS Systems Manager Cheat Sheet](https://tutorialsdojo.com/aws-systems-manager/)
+- [Amazon EBS Cheat Sheet](https://tutorialsdojo.com/amazon-ebs/)
+- [Amazon RDS Cheat Sheet](https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/)
+- [AWS Auto Scaling Cheat Sheet](https://tutorialsdojo.com/aws-auto-scaling)
+- [Amazon EKS Cheat Sheet](https://tutorialsdojo.com/amazon-elastic-kubernetes-service-eks/)
+- [Amazon EC2 Cheat Sheet](https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/)
+- [AWS Elastic Beanstalk Cheat Sheet](https://tutorialsdojo.com/aws-elastic-beanstalk/)
+- [Amazon EMR Cheat Sheet](https://tutorialsdojo.com/amazon-emr/)
+- [AWS Lambda Cheat Sheet](https://tutorialsdojo.com/aws-lambda/)
+- [Amazon GuardDuty Cheat Sheet](https://tutorialsdojo.com/amazon-guardduty/)
+- [Amazon S3 Cheat Sheet](https://tutorialsdojo.com/amazon-s3/)
+
+[🔼 Back to top](#table-of-contents)
+
 ## Domain 4: Security and Compliance (16%)
 - [AWS IAM Cheat Sheet](https://aws.amazon.com/iam/)
 - [Secure API access with MFA - Amazon Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html)
@@ -243,17 +275,13 @@ AWS Config).
 - [Access logs for your Application Load Balancer - Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/faqs/)
 - [Access logs for your Application Load Balancer - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)
 - [Access logs for your Application Load Balancer - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)
-**[Auto Scaling](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)**
+- [Auto Scaling](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)
 
 [**AWS Auto Scaling FAQs**](https://aws.amazon.com/autoscaling/faqs/)
-[**Access Analyzer**](https://aws.amazon.com/autoscaling/faqs/)
+
 - [Using AWS Identity and Access Management Access Analyzer - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)
 - [Understand how IAM Access Analyzer findings work - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-concepts.html)
 
-[**AWS Certified SysOps Administrator Associate Exam Guide Study Path SOA-C02**](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
-
-**[KMS](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)**
-[![KMS](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
 **[KMS](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)**
 - [Rotate AWS KMS keys - AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html)
 - [Managing Elastic Beanstalk instance profiles - AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-instanceprofile.html)
@@ -263,7 +291,7 @@ AWS Config).
 - [AWS Systems Manager Automation - AWS Systems Manager](https://aws.amazon.com/systems-manager/faq/)
 - [AWS Systems Manager Patch Manager - AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
 - [AWS Systems Manager Patch Manager - AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html)
-- [AWS Systems Manager Patch Manager - AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html)
+
 **[AWS config](https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html)**
 - [What Is AWS Config? - AWS Config](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
 - [drift detection action.](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html)
@@ -316,15 +344,29 @@ Manager, Systems Manager Parameter Store).
 GuardDuty, AWS Config, Amazon Inspector).
 <hr />
 
+### tutorialsdojo links - Security  16%
+- [AWS Organizations Cheat Sheet](https://tutorialsdojo.com/aws-organizations/)
+- [Amazon RDS Cheat Sheet](https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/)
+- [AWS Secrets Manager Cheat Sheet](https://tutorialsdojo.com/aws-secrets-manager/)
+- [AWS Directory Service Cheat Sheet](https://tutorialsdojo.com/aws-directory-service/)
+- [Amazon EC2 Cheat Sheet](https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/)
+- [AWS Security Hub Cheat Sheet](https://tutorialsdojo.com/aws-security-hub/)
+- [AWS CloudTrail Cheat Sheet](https://tutorialsdojo.com/aws-cloudtrail/)
+- [AWS WAF Cheat Sheet](https://tutorialsdojo.com/aws-waf/)
+- [Amazon GuardDuty Cheat Sheet](https://tutorialsdojo.com/amazon-guardduty/)
+- [Amazon S3 Cheat Sheet](https://tutorialsdojo.com/amazon-s3/)
+- [Amazon VPC Cheat Sheet](https://tutorialsdojo.com/amazon-vpc/)
+
+
 ## Domain 5: Networking and Content Delivery (18%)
+
+### VPN
 - [AWS VPN | FAQs](https://aws.amazon.com/vpn/faqs/)
 - [Control traffic to your AWS resources using security groups - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-### VPN
-[AWS VPN | FAQs | Amazon Web Services (AWS)](https://aws.amazon.com/vpn/faqs/)
-[Get started with AWS Site-to-Site VPN - AWS Site-to-Site VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-configure-routing)
-[AWS Direct Connect gateways - AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gateways.html)
+- [Get started with AWS Site-to-Site VPN - AWS Site-to-Site VPN](https://docs.aws.amazon.com/vpn/latest/s2svpn/SetUpVPNConnections.html#vpn-configure-routing)
+- [AWS Direct Connect gateways - AWS Direct Connect](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gateways.html)
+- [VPC](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gateways.html)
 
-[VPC](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gateways.html)
 1. [How Amazon VPC works - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/directconnect/latest/UserGuide/direct-connect-gateways.html)
 2. [Control traffic to your AWS resources using security groups - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html)
 3. [Control subnet traffic with network access control lists - Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
@@ -388,6 +430,18 @@ WAF web ACL logs, CloudFront logs).
 - Troubleshoot hybrid and private connectivity issues.
 <hr />
 
+### tutorialsdojo links - Networking 18%
+- [Comparison of AWS Services](https://tutorialsdojo.com/comparison-of-aws-services/)
+- [Latency Routing vs Geoproximity Routing vs Geolocation Routing](https://tutorialsdojo.com/latency-routing-vs-geoproximity-routing-vs-geolocation-routing/)
+- [Amazon Route 53 Cheat Sheet](https://tutorialsdojo.com/amazon-route-53/)
+- [AWS WAF Cheat Sheet](https://tutorialsdojo.com/aws-waf/)
+- [Security Group vs NACL](https://tutorialsdojo.com/security-group-vs-nacl/)
+- [AWS Direct Connect Cheat Sheet](https://tutorialsdojo.com/aws-direct-connect/)
+- [Amazon VPC Cheat Sheet](https://tutorialsdojo.com/amazon-vpc/)
+- [Amazon CloudFront Cheat Sheet](https://tutorialsdojo.com/amazon-cloudfront/)
+
+[🔼 Back to top](#table-of-contents)
+
 ## Domain 6: Cost and Performance Optimization (12%)
 - [Controlling your AWS costs by deleting unused Amazon EBS volumes](https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/)
 - [Managing the lifecycle of objects - Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html)
@@ -423,6 +477,22 @@ multipart uploads).
 efficiency (for example, Performance Insights, RDS Proxy). 
 - Enable enhanced EC2 capabilities (for example, Elastic Network Adapter, 
 instance store, placement groups).
+
+### tutorialsdojo links - Cost 12%
+- [AWS Billing and Cost Management Cheat Sheet](https://tutorialsdojo.com/aws-billing-and-cost-management/)
+- [AWS Organizations Cheat Sheet](https://tutorialsdojo.com/aws-organizations/)
+- [Amazon EC2 Cheat Sheet](https://tutorialsdojo.com/amazon-elastic-compute-cloud-amazon-ec2/)
+- [Amazon RDS Cheat Sheet](https://tutorialsdojo.com/amazon-relational-database-service-amazon-rds/)
+- [AWS Storage Gateway Cheat Sheet](https://tutorialsdojo.com/aws-storage-gateway/)
+- [Amazon ElastiCache Cheat Sheet](https://tutorialsdojo.com/amazon-elasticache/)
+- [VPC Peering Cheat Sheet](https://tutorialsdojo.com/vpc-peering)
+- [AWS Compute Optimizer Cheat Sheet](https://tutorialsdojo.com/aws-compute-optimizer/)
+- [Amazon Athena Cheat Sheet](https://tutorialsdojo.com/amazon-athena/)
+- [Amazon CloudFront Cheat Sheet](https://tutorialsdojo.com/amazon-cloudfront/)
+- [KMS](https://tutorialsdojo.com/aws-certified-sysops-administrator-associate-exam-guide-study-path-soa-c02/)
+
+
+## Online Courses & Tutorials
 
 ## Appendix
 [🔼 Back to top](#table-of-contents)
